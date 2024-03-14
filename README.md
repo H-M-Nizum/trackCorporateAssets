@@ -13,15 +13,15 @@
   - **GET** `/companies/`
     - Description: Retrieve a list of all companies.
   - **GET** `/companies/{companie_id}`
-    - Description: Retrieve details of a specific companie.
+    - Description: Retrieve details of a specific company.
   - **GET** `/companies/?name={companie_name}`
-    - Description: Retrieve details of a relevant companie.
+    - Description: Retrieve details of a relevant company.
   - **POST** `/companies/`
-    - Description: Create a new companie.
+    - Description: Create a new company.
   - **PUT** `/companies/{companie_id}`
-    - Description: Update information of a specific companie.
+    - Description: Update information of a specific company.
   - **DELETE** `/companies/{companie_id}`
-    - Description: Delete a specific companie.
+    - Description: Delete a specific company.
 
 ### Employees
 
@@ -83,4 +83,6 @@
   )
   
 ## Database Entity Relationship Diagram
+  [Download Diagram](https://drive.google.com/file/d/1hAUFU0HbzQjtmnGaWO6N2Alcm9DY3At0/view?usp=sharing)
+
 ![Untitled Diagram drawio (5)](https://github.com/H-M-Nizum/trackCorporateAssets/assets/106550437/c15065ee-32f3-4ece-ad73-2f45d5477244)
