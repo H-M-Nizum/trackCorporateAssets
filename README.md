@@ -8,19 +8,20 @@
 
 ## Endpoints
 
-  ### Companies
-    - **GET** `/companies/`
-      - Description: Retrieve a list of all companies.
-    - **GET** `/companies/{company_id}`
-      - Description: Retrieve details of a specific company.
-    - **GET** `/companies/?name={company_name}`
-      - Description: Retrieve details of a relevant company.
-    - **POST** `/companies/`
-      - Description: Create a new company.
-    - **PUT** `/companies/{company_id}`
-      - Description: Update information of a specific company.
-    - **DELETE** `/companies/{company_id}`
-      - Description: Delete a specific company.
+### Companies
+
+  - **GET** `/companies/`
+    - Description: Retrieve a list of all companies.
+  - **GET** `/companies/{companie_id}`
+    - Description: Retrieve details of a specific companie.
+  - **GET** `/companies/?name={companie_name}`
+    - Description: Retrieve details of a relevant companie.
+  - **POST** `/companies/`
+    - Description: Create a new companie.
+  - **PUT** `/companies/{companie_id}`
+    - Description: Update information of a specific companie.
+  - **DELETE** `/companies/{companie_id}`
+    - Description: Delete a specific companie.
 
 ### Employees
 
