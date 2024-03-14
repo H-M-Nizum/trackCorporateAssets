@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y_%pvclgy@%)ig2h#drxl_j&303bfrs_a6j1$7!9kowz!iz3_u
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://track-corporate-assets.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
